@@ -1,0 +1,255 @@
+.tablebuilder-table {
+  border: 1px solid #aaa;
+  border-collapse: collapse;
+}
+
+.tablebuilder-table th,
+.tablebuilder-table td {
+  border: 1px solid #aaa;
+  border-right-width: 0;
+  white-space: pre;
+}
+
+.tablebuilder-table td.col-head-blank {
+  border-left: none;
+}
+
+/*行头*/
+.tablebuilder-table .row-head {
+  font-weight: bolder;
+  white-space: nowrap;
+  min-height: 30px;
+}
+
+/*行序号*/
+.tablebuilder-table .row-num {
+  border-right-width: 1px;
+}
+
+/*行序号空格*/
+.tablebuilder-table .row-num-blank {
+  border-right-width: 1px;
+}
+
+/*列头*/
+.tablebuilder-table .col-head {
+  font-weight: bolder;
+  min-width: 30px;
+}
+/*列序号*/
+.tablebuilder-table .col-num {
+}
+
+.tablebuilder-table td {
+  min-width: 30px;
+  min-height: 30px;
+  padding: 2px 3px;
+}
+/*总计行*/
+.sum-row {
+}
+/*总计行中“总计”td*/
+.sum-title {
+  font-weight: bolder;
+  text-align: center;
+}
+/*“小计”td*/
+.subtotal-cell {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.tablebuilder-table .chk-col-checkbox {
+  cursor: pointer;
+}
+
+.tablebuilder-table .data-cell {
+  position: relative;
+}
+
+.tablebuilder-table .chk-row-checkbox {
+  cursor: pointer;
+  position: absolute;
+  left: 1px;
+  top: 6px;
+}
+
+.tablebuilder-table .cell-under-chk {
+  background-color: #eee !important;
+}
+
+/*锁定列*/
+.tablebuilder-table-frozen {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.tablebuilder-table-fixed {
+  table-layout: fixed;
+}
+
+.cell-has-left-border {
+  border-left-width: 1px !important;
+}
+
+.cell-no-left-border {
+  border-left-width: 0 !important;
+}
+
+.cell-has-right-border {
+  border-right-width: 1px !important;
+}
+
+.cell-no-right-border {
+  border-right-width: 0 !important;
+}
+
+.tablebuilder-table .title-row td {
+  border-width: 0;
+}
+
+.tablebuilder-table .row-title-row .row-title-head {
+  text-align: left;
+  font-weight: bold;
+}
+.tablebuilder-table {
+  border-style: solid;
+  border-color: #dadada;
+  border-top: none;
+  border-left: none;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.tablebuilder-table tbody td {
+  border-top: none;
+  border-bottom: none;
+}
+
+.tablebuilder-table .col-head,
+.tablebuilder-table .row-head {
+  font-weight: normal;
+}
+
+.tablebuilder-table .col-row,
+.tablebuilder-table .col-num-row {
+  background-color: #fff;
+}
+
+.tablebuilder-table td {
+  padding: 3px;
+  text-align: center;
+  border-color: #dadada;
+  font-size: 0.8em;
+}
+
+.tablebuilder-table .row-head-row td {
+  border-top: none;
+}
+
+.tablebuilder-table .col-row td,
+.tablebuilder-table .col-num-row td,
+.tablebuilder-table .sum-row td {
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.tablebuilder-table .row-code-head {
+  border-left-width: 1px;
+}
+
+.tablebuilder-table .indent-1 {
+  padding-left: 25px;
+}
+
+.tablebuilder-table .indent-2 {
+  padding-left: 45px;
+}
+
+.tablebuilder-table .indent-3 {
+  padding-left: 65px;
+}
+
+.tablebuilder-table .indent-4 {
+  padding-left: 85px;
+}
+
+.tablebuilder-table .indent-5 {
+  padding-left: 105px;
+}
+
+.row-head,
+.col-head {
+  text-align: center;
+}
+
+.tablebuilder-table .data-cell {
+  text-align: right;
+  padding-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.data-cell:first-of-type {
+  border-left-width: 1px !important;
+}
+
+.tablebuilder-table .title-row .title-row-cell {
+  text-align: center;
+}
+
+.cell-has-left-border {
+  border-left-width: 1px !important;
+}
+
+.cell-no-left-border {
+  border-left-width: 0 !important;
+}
+
+.cell-has-right-border {
+  border-right-width: 1px !important;
+}
+
+.cell-no-right-border {
+  border-right-width: 0 !important;
+}
+
+.tablebuilder-table .row-head {
+  border-left-width: 0;
+}
+
+.tablebuilder-table .row-item-head {
+  text-align: left;
+}
+
+.tablebuilder-table .row-item-head[meta-type="label"] {
+  font-weight: bold;
+}
+
+.tablebuilder-table .row-code-head {
+  text-align: center;
+}
+
+.tablebuilder-table .row-title-cell {
+  text-align: left;
+  font-weight: bold;
+}
+
+.tablebuilder-table .row-title-row:not([row-key]) .row-item-head {
+  font-weight: bold;
+}
+
+.tablebuilder-table .tablebuilder-table-width-control-row {
+  display: none;
+}
+
+.tablebuilder-table .row-num-blank,
+.tablebuilder-table .row-num {
+  border-right: none;
+  border-left: none;
+}
+
+.tablebuilder-table .col-num-blank {
+  border-left: none;
+}
